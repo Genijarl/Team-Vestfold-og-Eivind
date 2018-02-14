@@ -30,7 +30,29 @@ BSortModified 1000-4 var såvidt tregere enn Bsort 1000-4. Qsort 1000-4 var ogs�
 BsortModified 10000-4 var kjappere enn Bsort 10000-4 og Qsort10000-4 var kjappest.
 
 Big-O:
-Forstår det slik fra grafen i http://bigocheatsheet.com/ at
-QuickSort algorytmen kan håndtere fler operasjoner over flere elementer enn Bubblesort og Bubblesort modified. Dette ser vi ved at
-bubblesort har et gjennomsnitt på Θ(n^2), mens quicksort har et gjennomsnitt på Θ(n log(n)). Θ(n^2) utfører mange fler opereasjoner 
-og behandler mange færre elementer enn Θ(n log(n)).
+
+Big-O beskriver hvor kompleks en algoritme er innenfor en tidsramme. Hvis for eksempel grafen viser oss at en algoritme bruker
+10 sekunder på å løse 100 elementer, så viser den oss hvor lang tid det vil ta å løse 200, 300, 400 elementer etc.
+Bubblesort er en slik algoritme. Kompleksitetsnivået til bubblesort er 0(n^2). n står for antall input. Dette betyr ut i fra 
+big-O-sheeten at den ikke er effektiv til å sortere en stor mengde elementer. Jo fler elementer, jo mindre effektiv blir den.
+
+Quicksort er annen algoritme man kan bruke. Denne er mer effektiv med tanke på å sortere elementene. 
+En stor forskjell fra denne i forhold til bubblesort er at quicksort normalt bruker en logaritmisk tilnærming til å utføre oppgaven.
+Dette vises i Big-O-sheeten ved 0(n log n). Den er også designet slik at den i verste fall vil hoppe over og utføre en 0(n^2).
+
+Ut i fra Big-O kan vi altså tyde at 0(n log n), altså quicksort, klarer å behandle større mengder data jevnt utover grafen uten store 
+endringer i den linære kurven. Bubblesort klarer å behandle operasjoner med færre elementer på en mer effektiv måte en quicksort, 
+men når antall elementer øker vil tilnærmingen til bubblesort bli tregere enn quicksort, noe man kan tyde ut i fra grafen til Big-O.
+Dette vises også i resultatene i grafene våre.
+
+Hvor oppgavene ikke er for komplekse bruker BubbleSort Ω(n) for å løse sine "best case scenarioer". Dette er når det er snakk om 
+100-1000 elementer, altså oppgaver som ikke er komplekse. Når det blir 10000 elementer endrer Bubblesort og bubblesortmodified 
+tilnærming til 0(n^2), som er worst case scenario. I henhold til Big-O så stiger denne grafen. Altså antall operasjoner stiger
+per element, noe som medfører at tidskompleksiteten til operasjonene stiger.
+
+I best og average casene bruker quicksort Ω(n log(n)). Denne tilnærmingen klarer å håndtere flere elementer i forhold til operasjoner
+enn det BubbleSort under average kompleksitet klarer. Men i et worst case scenario vil den bruke samme tilnærming som Bubblesort
+og BubbleSortModified ved tilnærmingen 0(n^2). Dette kan man se på grafen siden den stiger voldsomt etter 1000 elementer. 
+Konklusjonen vår er at resultatene stemmer overens med Big-O sheeten. Bubblesort er litt raskere en BubbleSortModified til et punkt 
+mellom 1000 og 10000 elementer. Herfra stiger grafen til BubbleSort fortere enn de BubbleSortModiefied grafen gjør.
+
