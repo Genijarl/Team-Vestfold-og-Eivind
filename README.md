@@ -45,3 +45,7 @@ https://github.com/Genijarl/Team-Vestfold-og-Farsund/blob/master/Oblig1/4ABC
 https://github.com/Genijarl/Team-Vestfold-og-Farsund/blob/master/Oblig1/ascii.go
 
 https://github.com/Genijarl/Team-Vestfold-og-Farsund/blob/master/Oblig1/iso_test.go
+
+# Obligatorisk oppgave 2
+
+# Oppgave 1
