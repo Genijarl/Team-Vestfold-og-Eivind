@@ -49,5 +49,9 @@ https://github.com/Genijarl/Team-Vestfold-og-Farsund/blob/master/Oblig1/iso_test
 # Obligatorisk oppgave 2
 
 # Oppgave 1
-Build fileinfo.go og bruk fileinfo som argument med påfølgende filnavn. eks: fileinfo fileinfo.go
+Go build fileinfo.go og bruk fileinfo som argument med påfølgende filnavn. eks: fileinfo text.txt
 https://github.com/Genijarl/Team-Vestfold-og-Farsund/blob/master/Oblig2/fileinfo.go
+
+# Oppgave 2
+Go build filecount.go og bruk filecount som argument med påfølgende filnavn. eks: filecount text.txt
+https://github.com/Genijarl/Team-Vestfold-og-Farsund/blob/master/Oblig2/filecount.go
