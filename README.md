@@ -55,3 +55,18 @@ https://github.com/Genijarl/Team-Vestfold-og-Farsund/blob/master/Oblig2/fileinfo
 # Oppgave 2
 Go build filecount.go og bruk filecount som argument med påfølgende filnavn. eks: filecount text.txt
 https://github.com/Genijarl/Team-Vestfold-og-Farsund/blob/master/Oblig2/filecount.go
+
+# Oppgave 3
+a) + d)
+https://github.com/Genijarl/Team-Vestfold-og-Farsund/blob/master/Oblig2/addup.go
+b) + d)
+https://github.com/Genijarl/Team-Vestfold-og-Farsund/blob/master/Oblig2/addtofile.go
+https://github.com/Genijarl/Team-Vestfold-og-Farsund/blob/master/Oblig2/sumfromfile.go
+
+c) Beskriv og implementer feilhåndtering på all I/O i oppgave a) og b). Se https://blog.golang.org/error-handling-and-go (Lenker til en ekstern side.)Lenker til en ekstern side. for mer informasjon om feilhåndtering i Go.
+
+d) VI MANGLER SIGINT I OPPGAVENE a og b!
+
+e) Bygg filene som i oppgave 1 og 2 til kjørbare filer på ditt operativsystem og legg dem ved i /bin mappen.
+
+
