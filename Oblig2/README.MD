@@ -1,3 +1,16 @@
+
+
+Jarl Andreassen: Jarla17@uia.no
+
+Vegard Mathisen: Vegasm17@uia.no
+
+Eivind Pedersen: Eivip17@uia.no
+
+Øyvind Hammer Markeng: Oyvinm15@uia.no
+
+
+
+
 Oppgave 1
 a) Skriv et Golang program med navn fileinfo.go​,
 
