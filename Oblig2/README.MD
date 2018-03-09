@@ -28,6 +28,9 @@ Kommandoet for å utføre programmet i terminal skal se slik ut: fileinfo
 
 Stien til filnavnet kan være enten relativ eller absolutt.
 
+Link til oppgave 1: 
+https://github.com/Genijarl/Team-Vestfold-og-Farsund/blob/master/Oblig2/src/oppgave1/fileinfo.go
+
 Oppgave 2
 a) Skriv programmer med navn filecount.go som skal lese en tekst-fil, skrive ut totalt antall linjer og de fem “runes” (bokstaver/tegn), som forekommer mest i filen samt hvor mange ganger de telles i den medfølgende filen text.txt. Som forrige oppgave skal filen bygges til et kjørbart program og kunne utføres i terminal med kommandoen: filecount
 
@@ -44,6 +47,10 @@ Rune: X , Counts: X
 Rune: X , Counts: X
 Rune: X , Counts: X
 Rune: X , Counts: X
+
+Link til oppgave 2: 
+https://github.com/Genijarl/Team-Vestfold-og-Farsund/blob/master/Oblig2/src/oppgave2/filecount.go
+
 Oppgave 3
 a) Skriv et program med navn addup.go bestående av to go funksjoner og kommunisere med hverandre gjennom channels
 
@@ -66,3 +73,16 @@ c) Beskriv og implementer feilhåndtering på all I/O i oppgave a) og b). Se htt
 d) Implementer håndtering av SIGINT i programmene i a) og b); programmene skal skrive ut en avslutningsmelding dersom de mottar SIGINT før de fullfører naturlig.
 
 e) Bygg filene som i oppgave 1 og 2 til kjørbare filer på ditt operativsystem og legg dem ved i /bin mappen.
+
+Link til oppgave 3a: 
+https://github.com/Genijarl/Team-Vestfold-og-Farsund/blob/master/Oblig2/src/oppgave3/addup.go
+
+Linker til oppgave 3b og 3d: 
+https://github.com/Genijarl/Team-Vestfold-og-Farsund/blob/master/Oblig2/src/oppgave3/addtofile.go
+https://github.com/Genijarl/Team-Vestfold-og-Farsund/blob/master/Oblig2/src/oppgave3/sumfromfile.go
+
+Link til oppgave 3c:
+https://github.com/Genijarl/Team-Vestfold-og-Farsund/blob/master/Oblig2/src/oppgave3/Feilh%C3%A5ndtering
+
+Link til oppgave 3e:
+https://github.com/Genijarl/Team-Vestfold-og-Farsund/tree/master/Oblig2/src/bin
