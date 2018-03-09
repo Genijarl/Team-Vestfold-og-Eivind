@@ -65,7 +65,9 @@ https://github.com/Genijarl/Team-Vestfold-og-Farsund/blob/master/Oblig2/sumfromf
 
 c) Beskriv og implementer feilhåndtering på all I/O i oppgave a) og b). Se https://blog.golang.org/error-handling-and-go (Lenker til en ekstern side.)Lenker til en ekstern side. for mer informasjon om feilhåndtering i Go.
 
-d) VI MANGLER SIGINT I OPPGAVENE a og b!
+d) Implementer håndtering av SIGINT i programmene i a) og b); programmene skal skrive ut en avslutningsmelding dersom de mottar SIGINT før de fullfører naturlig. 
+ https://github.com/Genijarl/Team-Vestfold-og-Farsund/blob/master/Oblig2/src/oppgave3/addtofile.go 
+ https://github.com/Genijarl/Team-Vestfold-og-Farsund/blob/master/Oblig2/src/oppgave3/sumfromfile.go
 
 e) Bygg filene som i oppgave 1 og 2 til kjørbare filer på ditt operativsystem og legg dem ved i /bin mappen.
 
