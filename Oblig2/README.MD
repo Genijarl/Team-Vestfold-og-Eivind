@@ -1,4 +1,4 @@
-
+# Team Vestfold og Farsund
 
 Jarl Andreassen: Jarla17@uia.no
 
@@ -10,7 +10,7 @@ Eivind Pedersen: Eivip17@uia.no
 
 
 
-OBLIG2:
+# OBLIG2
 
 Oppgave 1
 a) Skriv et Golang program med navn fileinfo.go​,
