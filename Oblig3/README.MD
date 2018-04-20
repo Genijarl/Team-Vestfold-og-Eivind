@@ -1,10 +1,10 @@
 # Obligatorisk oppgave 3 #
 
 #### Gruppemedlemmer ####
-* Jarl Andreassen *
-* Vegard Saavesen Mathisen *
-* Øyvind Markeng Hammer *
-* Eivind Pedersen *
+* Jarl Andreassen 
+* Vegard Saavesen Mathisen 
+* Øyvind Markeng Hammer 
+* Eivind Pedersen 
 
 
 ## Oppgave 1 ##
