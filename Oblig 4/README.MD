@@ -8,7 +8,6 @@
 
 # Oppgaven #
 
-## Obligatorisk oppgave 4 ##
 Oppgaven er et systemutviklingsprosjekt. Oppgaven skal inneholde en systemspesifikasjon som beskriver samfunnets og/eller brukeres nytteverdi av applikasjonen. I tillegg skal dere utrede, velge og dokumentere systemets arkitektur.  Systemarkitekturen viser til alle nodene, som er involvert i systemet og beskriver deres funksjon.  
 
 Eksempler på prosjekt:
