@@ -39,6 +39,6 @@ I tillegg skal dere utvikle enhetstester for å kvalitetssikre at kildekoden opp
 Oppgaven vil bli bedømt ut fra løsning i henhold til oppgavetekst og anvendelse av konsepter og teori fra forelesninger og tidligere innleveringer; f.eks. feilhåndtering og korrekt håndtering av prosessignalring, beskrivelse av hardware/software og nettverksegenskaper.
 
 # Hva som skal leveres #
-Systemspesifikasjon
-Systemarkitektur
-Applikasjon (master branch i GitHub)
+- Systemspesifikasjon
+- Systemarkitektur
+- Applikasjon (master branch i GitHub)
