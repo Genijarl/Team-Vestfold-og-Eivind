@@ -46,7 +46,8 @@ Dette fungerer slik:
 Dette viser at for hver gang vi henter en API vil dette vises i serveren vår i form av reelle tall og bynavn i et redesignet
 miljø tilpasset en nettside. Nettsiden henter widgets for å gi en bedre interface av systemet. 
 Når programmet kjøres starter det nederst i hiearkiet ved å hente data, så hente widgets og deretter kommer resultatet
-opp i web serveren vår. Dette gjøres ved å bruke en lokal server (localhost:8080).
+opp i web serveren vår. Dette gjøres ved å bruke en lokal server (localhost:8080). Webserveren vår henter data fra de forskjellige
+API'ene og sender de tilbake til brukeren etter tallene og widgets er hentet fra sine respektive domener.
 
 
 
