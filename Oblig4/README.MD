@@ -25,6 +25,7 @@ Brukers nytteverdi, scenario:
 Scenario 1:
 
 Jarl skal på Aker brygge og ta seg noen pils med sine kompiser. De siste dagene har det vært sol, men den siste uken har det vært litt mye vind. Jarl sjekker da vår applikasjon slik at han vet hvordan været er hva han eventuelt skulle trenge å kle på seg. Han kan også sjekke ut kameraer som sender live fra bryggen for å se om det er mange ute denne dagen. 
+
 Scenario 2: 
 
 Knut er i Forsvaret i Stavanger på Madla leir og skal på feltøvelse. Det er høst og veldig skiftende vær. Han er lei av å ta på seg for mye eller for lite klær, og sjekker derfor applikasjonen for å sjekke hvordan han skal kle seg og pakke feltsekken. Han må kle seg i regntøy og vindtett, siden applikasjonen melder nedbør og vind. 
