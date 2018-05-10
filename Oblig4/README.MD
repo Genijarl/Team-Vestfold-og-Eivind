@@ -3,7 +3,7 @@
 #### Gruppemedlemmer ####
 * Jarl Andreassen 
 * Vegard Saavesen Mathisen 
-* Øyvind Markeng Hammer 
+* Øyvind Hammer Markeng 
 * Eivind Pedersen 
 
 
