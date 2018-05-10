@@ -41,3 +41,7 @@ Oppgaven vil bli bedømt ut fra løsning i henhold til oppgavetekst og anvendels
 - Systemspesifikasjon
 - Systemarkitektur
 - Applikasjon (master branch i GitHub)
+
+# Installasjonsintruksjoner #
+* For å kjøre programmet må alle go og html filene inn i samme mappe på golang. 
+* Programmet kjøres ved kommandoen "go run vermelding.go" i terminalen.
