@@ -54,3 +54,4 @@ API'ene og sender de tilbake til brukeren etter tallene og widgets er hentet fra
 # Installasjonsintruksjoner #
 * For å kjøre programmet må alle go og html filene inn i samme mappe på golang. 
 * Programmet kjøres ved kommandoen "go run vermelding.go" i terminalen.
+* Testene kjøres ved kommando "go test".
