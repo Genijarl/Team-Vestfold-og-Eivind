@@ -12,11 +12,12 @@ Oppgaven er et systemutviklingsprosjekt. Oppgaven skal inneholde en systemspesif
 
 Eksempler på prosjekt:
 
-finne “alt” om et spesifikt tema:
-nyheter
-twittermeldinger
-facebook profiler
-finne spesifikke objekter basert på lokasjon og levere en liste / informasjon til brukeren
+Finne “alt” om et spesifikt tema:
+- Nyheter
+- Twittermeldinger
+- Facebook profiler
+
+Finne spesifikke objekter basert på lokasjon og levere en liste / informasjon til brukeren
 følge med på “realtids-data” fra noen databaser på WWW; levere en værmelding fra flere værdatabaser
 levere produktinformasjon
 Dere velger altså selv hva applikasjonen skal gjøre, men plattformen den utvikles til skal være web. Dere skal ved hjelp av pakker fra oblig 3 eller andre aktuelle pakker, visualisere applikasjonen i et brukergrensesnitt.
