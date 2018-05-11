@@ -7,47 +7,40 @@
 * Eivind Pedersen 
 
 
-## Systemspesifikasjon ## 
+## Oppgave ##
+Oppgaven er et systemutviklingsprosjekt. Oppgaven skal inneholde en systemspesifikasjon som beskriver samfunnets og/eller brukeres nytteverdi av applikasjonen. I tillegg skal dere utrede, velge og dokumentere systemets arkitektur.  Systemarkitekturen viser til alle nodene, som er involvert i systemet og beskriver deres funksjon.  
 
-Vår applikasjon tar for seg en daglig værmelding for tre bestemte byer, hvor byene vi har valgt er Oslo, Stavanger og Trondheim. Nytteverdien av denne applikasjonen er at bruker skal kunne få opplyst hvordan været er i det øyeblikket applikasjonen blir kjørt, og ut fra denne informasjonen vil bruker få en opplysning med informasjon om hvordan man burde kle seg, og hva man eventuelt bør ta med seg om man skal ut.
+Eksempler på prosjekt:
 
-Vi får informasjon fra gjennomsnittsverdiene: Lufttrykket, luftfuktighet, vindstyrke og grader, samt direktebilder fra de respektive stedene. 
+finne “alt” om et spesifikt tema:
+nyheter
+twittermeldinger
+facebook profiler
+finne spesifikke objekter basert på lokasjon og levere en liste / informasjon til brukeren
+følge med på “realtids-data” fra noen databaser på WWW; levere en værmelding fra flere værdatabaser
+levere produktinformasjon
+Dere velger altså selv hva applikasjonen skal gjøre, men plattformen den utvikles til skal være web. Dere skal ved hjelp av pakker fra oblig 3 eller andre aktuelle pakker, visualisere applikasjonen i et brukergrensesnitt.
 
-Lufttrykket måles i kilopascal, da det er måleenheten for lufttrykk. Luftfuktigheten returneres i prosent, fordi det er enklest å forstå. Vindstyrken er satt til m/s og gradene er satt til °C fordi det er det mest brukte i Norge. 
-Sidene vi har hentet informasjon fra er:
+Programmet skal hente data fra relevante APIer som skal benyttes til noe fornuftig. (Eksempelvis vil værdata være interessant i en værapplikasjon)  Denne dataen, som i oblig 3, trenger ikke å lagres på en fysisk disk, og det holder derfor å kun lagre den i RAM.
 
-* Openweathermap.org for lufttrykk, luftfuktighet og vindstyrke.
-* Accuweather.com for gradestokken i celsius og klokkeslett. 
-* Lookr.com for direktesendte bilder fra de respektive byene. 
+Basert på verdien på dataen dere mottar fra APIer skal dere generere meningsfylte tilbakemeldinger til sluttbrukeren. Et realistisk eksempel på dette kan være at dersom temperaturen er over 30 grader i Kristiansand får brukeren følgende respons fra serveren: «Finn frem solbriller, i dag blir det varmt!»
 
-Brukers nytteverdi, scenario: 
+Programmet deres skal vise meningsfulle data til brukeren, dvs. ikke data i rå JSON-format, men strukturerte data, som “Location: Kristiansand, Temperature high: 5 degrees Celsius, Temperature low: 0 degrees Celsius” osv. Formatet kan dere velge selv, så lenge det er brukbart. Med brukbart menes det blant annet at brukernes opplevelse av å bruke systemet oppfattes som intuitivt og enkelt.
 
-Scenario 1:
+Fordi dette er et prosjekt forventes det også at applikasjonen har flere eller større funksjonaliteter enn å bare hente og returnere en spesifikk type data uten mål og mening. Eksempler på dette:
 
-Jarl skal på Aker brygge og ta seg noen pils med sine kompiser. De siste dagene har det vært sol, men den siste uken har det vært litt mye vind. Jarl sjekker da vår applikasjon slik at han vet hvordan været er hva han eventuelt skulle trenge å kle på seg. Han kan også sjekke ut kameraer som sender live fra bryggen for å se om det er mange ute denne dagen. 
+Parkeringsapplikasjon som henter live data og lager et kart i GUI med markører som representerer parkeringsplasser.
+Værapplikasjon som returner værdato for en oppgitt data fra brukeren, og avhengig av verdiene på dataen foreslår hvilke klær brukeren burde benytte.
+ 
 
-Scenario 2: 
+I tillegg skal dere utvikle enhetstester for å kvalitetssikre at kildekoden oppfører seg pålitelig under forventede og uforventede betingelser. Det er fordelaktig at samtlige enheter har en eller flere enhetstester. Defensiv programmering skal anvendes der det er fornuftig, for å øke robustheten på applikasjonen.
 
-Knut er i Forsvaret i Stavanger på Madla leir og skal på feltøvelse. Det er høst og veldig skiftende vær. Han er lei av å ta på seg for mye eller for lite klær, og sjekker derfor applikasjonen for å sjekke hvordan han skal kle seg og pakke feltsekken. Han må kle seg i regntøy og vindtett, siden applikasjonen melder nedbør og vind. 
+Oppgaven vil bli bedømt ut fra løsning i henhold til oppgavetekst og anvendelse av konsepter og teori fra forelesninger og tidligere innleveringer; f.eks. feilhåndtering og korrekt håndtering av prosessignalring, beskrivelse av hardware/software og nettverksegenskaper.
 
-  
-
-
-
-## Systemarkitektur ##
-
-Webserveren vår henter inn oppdaterte data fra forskjellige værmeldings API’er hos openweathermap. 
-Disse går fra henholdsvis Oslo, Trondheim og Stavanger. Når brukeren bruker tjenesten vil brukeren se resultatet av dataen programmet
-henter fra disse API’ene i nettleseren slik at det blir menneskelig å lese. 
-Dette fungerer slik:
-
-![image](https://user-images.githubusercontent.com/35763762/39866250-245c0f64-5450-11e8-8964-e6d2cb04b93d.png)
-
-Dette viser at for hver gang vi henter en API vil dette vises i serveren vår i form av reelle tall og bynavn i et redesignet
-miljø tilpasset en nettside. Nettsiden henter widgets for å gi en bedre interface av systemet. 
-Når programmet kjøres starter det nederst i hiearkiet ved å hente data, så hente widgets og deretter kommer resultatet
-opp i web serveren vår. Dette gjøres ved å bruke en lokal server (localhost:8080). Webserveren vår henter data fra de forskjellige
-API'ene og sender de tilbake til brukeren etter tallene og widgets er hentet fra sine respektive domener.
+# Hva som skal leveres #
+- Systemspesifikasjon
+- Systemarkitektur
+- Applikasjon (master branch i GitHub)
 
 
 
